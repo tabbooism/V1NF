@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-brand-cyan: #06b6d4;
+  --color-brand-dark: #05070a;
+  --color-brand-darker: #020304;
+  --color-brand-green: #10b981;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+  code, pre {
+    font-family: var(--font-mono);
+  }
+}
+

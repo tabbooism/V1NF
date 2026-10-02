@@ -1,0 +1,6 @@
+{
+  "name": "LivePulse Activity Stream",
+  "description": "Real-time chronological user activity feed with live WebSocket streaming, interactive action dispatcher, event filters, and throughput telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
